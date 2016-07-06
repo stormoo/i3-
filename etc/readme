@@ -1,0 +1,3 @@
+install i3blocks
+open /etc/i3blocks.conf as root
+customize
