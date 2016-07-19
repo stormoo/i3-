@@ -19,5 +19,6 @@ If you wantto use my i3config,I recommend you to do some things first.
 Then when you have downloaded and installed all of this software you can use my config file.
   All you need to do is neplace the old config file with the new one.Afer that just log out/in.
 
-      I am using arc-darkertheme, soI recommend you to install this theme for color kohorence.
-      
+    am using arc-darkertheme, so I recommend you to install this theme for color kohorence.
+ 
+ 
