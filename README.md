@@ -1,13 +1,11 @@
 # i3-
 HelloWorld!
+Ths is my configuration of i3 window manager.
 
- Ths is my configuration of i3 window manager.
-
-Firstly I want to say, that everyone should watch i3wm videos and i3wm userguide provided by i3wm team on official website.
-
-My configuration is bassicly copy of config file from Alex Brooker(That guy who made series of i3 videos).
-but I've channged few things. such as, config for rofi for 1366*768screen resolution.
-
+ Firstly I encourage you to watch this video https://youtu.be/j1I63wGcvU4 and also to read user guide on i3wm.org. User guideis bassicly describedin thefirstand second video,but is deffinitely worth reading it. At least you get to know al of the keyboard shortcuts and what is i3 really capable of.Those videos get me really inspired and so, my config file is bassicly a copy of the one used in the video. 
+  
+But it`s not a 100% copy. Yes, all  collors and also the bar and fonts and the same, but that`s because I like them. But what I have changed is resolution of rofi(I will get to this later) to fit my 1366*786 screen. 
+  
 If you wantto use my i3config,I recommend you to do some things first.
    Firstly, download fonts from .fonts directory.And install them. How todo that, just read provided readme file in .fonts directory.
    Then You would need to download 3rd party software. Speciallz rofi,compton and i3blocks.Most of distros got this softwarein their repos.
