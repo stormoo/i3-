@@ -1,2 +1,38 @@
-first mkdir ~/.fonts
-copy *ttf ~/.fonts
+                                      Fonts
+All you have to do is download all of the *.ttf files. Then just open terminal and type 
+in these commands:
+
+	mkdir ~/.fonts
+
+Then type cd Downloads (or other name of your downloads directory) . If you do 
+not have any other font files in your downloads file you can type in this command 
+
+	first mkdir ~/.fonts
+
+If you do have you have to copy those 4 files manualy.
+
+Thats all. :-)
+
+                                GTK 2.0/3.0 Fonts
+
+You have changed font in your system. by i3config file. But you did not change your 
+font in GTK applications yet. To do that, the easiest way is to install LX Appearance. 
+Just install it with terminal, every distro got LX appearance in it's official repositories.
+	
+                                  LXAppearance
+
+      After installation, open LX Appearance and a dialog will pop up. You can 
+      change. Hovever there is a problem with this particular font (System San 
+      francisco Display). It is not show in the dialog.
+
+      To fix this just change yor font size and LX Appearance will automaticaly 
+      generate .gtkrc-2.0 file in your home directory.You just open this file as root 	
+      and change gtk-font-name to System San Francisco Display. That will change 	
+      font in gtk 2.0 applications. But if your system uses gtk 3.0 as well ( and 90% 	
+      it does ) , you have to edit your .config/gtk-3.0/settings.ini file in your home 	
+      directory. So again, open it as root and change the gtk-font-name to System 	
+      San Francisco Display.
+
+Now you have succesfully change your font in systemandGTK 2.0/3.0 applications as 
+well. After this change System San francisco Display finally appears in 
+LXAppearance dialog.
