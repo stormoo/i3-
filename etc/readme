@@ -1,3 +1,10 @@
-install i3blocks
-open /etc/i3blocks.conf as root
-customize
+# i3-blocks
+
+This directory is called etc because the configuration file for i3blocks is located in /etc 
+directory. Firstly you need to download i3blocks to your conputer. the easiest way is 
+with terminal ( You can check master ReadMe file). After installation you have to edit 
+your i3blocks.conf file as root. If there is no i3blocks.conf file located in your /etc 
+directory just download mine and copy it into /etc directory. After logging out/it you 
+should be able to see  time/volume/internet on your i3Bar. You can easily change 
+what you and don't want to see on your i3bar just by editing i3blocks.conf file (don't 
+forget to log out/in for after changes to take effect). 
