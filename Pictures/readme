@@ -1,1 +1,7 @@
+                            Wallpaper
 
+Picture in this directory is one of my favourite wallpapers. It's originaly from Deepin 
+Os. If you have done .fonts directory first you can change your background by 
+LXApearance if not, then just download feh. Feh is an CLI program and it was 
+developed for changing backgrounds. Since I've allready setted up feh in .i3config all 
+you have to do is copy the wallpaper.jpg to Picture folder.
